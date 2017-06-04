@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-semistandard-react",
+  "version": "1.0.0",
+  "description": "ESLint Semistandard and Standard React rules.",
+  "main": "index.js",
+  "repository": "https://github.com/adamelliotfields/eslint-config-semistandard-react.git",
+  "author": "Adam Fields <adam.elliot.fields@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-standard": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  }
+}

@@ -2,7 +2,11 @@
 >All the rules in one place...
 
 ### Install
-`npm install --save eslint eslint-config-semistandard-react` or `yarn add eslint eslint-config-semistandard-react`  
+`npm install --save eslint eslint-config-semistandard-react`  
+
+OR
+
+`yarn add eslint eslint-config-semistandard-react`  
 
 Then create an `.eslintrc` in your project's root folder and paste the following snippet:
 

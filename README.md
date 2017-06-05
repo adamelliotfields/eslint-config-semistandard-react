@@ -2,15 +2,30 @@
 >All the rules in one place...
 
 ### Install
-`npm install --save eslint eslint-config-semistandard-react`  
+The plugins required for this config must be installed manually as peer dependencies.  
 
-OR
+This is required for the config to work globally (see [Configuring Plugins](http://eslint.org/docs/3.0.0/user-guide/configuring#configuring-plugins)).  
 
-`yarn add eslint eslint-config-semistandard-react`  
+**NPM:**
 
-Then create an `.eslintrc` in your project's root folder and paste the following snippet:
-
+```bash
+npm install --save-dev eslint eslint-config-semistandard-react eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
+
+**Yarn:**
+
+```bash
+yarn add --dev eslint eslint-config-semistandard-react eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+```
+
+**Globally:**  
+
+Replace `--save-dev` or `--dev` with `--global`.
+
+### Configure
+Create an `.eslintrc` in your project's root folder (local installation) or your computer's $HOME directory (`~/`) (global installation) and paste the following snippet:
+
+```json
 {
   "extends": ["semistandard-react"]
 }
@@ -21,10 +36,9 @@ This is a unified ESLint shared configuration combining all of the rules from:
 * [eslint-config-semistandard](https://github.com/Flet/eslint-config-semistandard)
 * [eslint-config-standard](https://github.com/feross/eslint-config-standard)
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
-* [eslint-config-standard-jsx](https://github.com/feross/eslint-config-standard-jsx)
+* [eslint-config-standard-jsx](https://github.com/feross/eslint-config-standard-jsx)*
 
-### Why?
-Because this is a single `npm install` or `yarn add` that does not have any peer dependencies besides ESLint itself.
+**standard-jsx is a dependency of standard-react.*
 
 ### Acknowledgements
 * [@feross](https://github.com/feross): [Standard Style](https://standardjs.com/)  

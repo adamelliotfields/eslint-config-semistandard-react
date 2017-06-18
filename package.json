@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-semistandard-react",
-  "version": "2.0.1",
-  "description": "ESLint Semistandard and Standard React rules.",
+  "version": "3.0.0",
+  "description": "ESLint Semistandard + Standard React + Babel Parser.",
   "main": "index.js",
   "repository": "https://github.com/adamelliotfields/eslint-config-semistandard-react.git",
   "author": "Adam Fields <adam.elliot.fields@gmail.com>",
@@ -14,18 +14,21 @@
     "style guide",
     "javascript",
     "react",
-    "node"
+    "node",
+    "babel"
   ],
   "dependencies": {
-    "eslint-config-standard": "^10.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
     "eslint-config-standard-react": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.0.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-standard": "^3.0.0"
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }

@@ -2,8 +2,7 @@
 > An advanced configuration for writing clean ES7+ React (with semicolons).
 
 ### Changelog
-* Added Babel Parser
-* Upgraded ESLint to v4.0.0
+See [`CHANGELOG.md`](https://github.com/adamelliotfields/eslint-config-semistandard-react/blob/master/CHANGELOG.md).
 
 ### Install
 The plugins and parser required for this config must be installed manually as peer dependencies.  
@@ -39,7 +38,16 @@ Create an `.eslintrc` in your project's root folder (local installation) or your
 }
 ```
 
-You may also override any rules by creating a `rules` object after the `extends` array.
+You may also override any rules by creating a `rules` object after the `extends` array. For example, if you want to enforce trailing commas (aka comma dangle), simply add the following rule:
+
+```json
+{
+  "extends": ["semistandard-react"],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"]
+  }
+}
+```
 
 ### Rules
 This is a unified ESLint shared configuration combining all of the rules from:
@@ -68,6 +76,14 @@ To lint your Flow type annotations, simply install [eslint-plugin-flowtype](http
   "extends": ["semistandard-react", "plugin:flowtype/recommended"]
 }
 ```
+
+### Editor Plugins
+I primary use ESLint to fix errors in-editor before compiling/running. Webstorm has built-in support for ESLint and allows you to fix an entire file with one click.
+
+Here are links to the ESLint plugins for the other popular text editors:
+* [Atom](https://atom.io/packages/linter-eslint)
+* [VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Sublime](https://packagecontrol.io/packages/SublimeLinter-contrib-eslint)
 
 ### Acknowledgements
 * [@nzakas](https://github.com/nzakas): [ESLint](https://github.com/eslint/eslint)

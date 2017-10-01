@@ -1,11 +1,18 @@
 {
   "name": "eslint-config-semistandard-react",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "An advanced configuration for writing clean ES7+ React (with semicolons).",
-  "main": "index.js",
-  "repository": "https://github.com/adamelliotfields/eslint-config-semistandard-react.git",
-  "author": "Adam Fields <adam.elliot.fields@gmail.com>",
+  "author": "Adam Fields <adam.elliot.fields@gmail.com> (https://adamelliotfields.github.io)",
+  "homepage": "https://github.com/adamelliotfields/eslint-config-semistandard-react#readme",
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamelliotfields/eslint-config-semistandard-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamelliotfields/eslint-config-semistandard-react/issues"
+  },
   "keywords": [
     "eslint",
     "eslint config",
@@ -13,16 +20,14 @@
     "style guide",
     "standard style",
     "javascript",
-    "es2015",
-    "es6",
-    "es7",
     "react",
     "jsx",
-    "node",
-    "babel"
+    "babel",
+    "node"
   ],
   "peerDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.0.0"
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.0.0",
+    "eslint-plugin-semistandard-react": "^4.1.0"
   }
 }

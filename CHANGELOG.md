@@ -3,11 +3,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
-
 ### Versioning
  - The major version will align with the current ESLint major version.
- - Minor versions will be bumped for changes to Standard Style or Standard React, or for changes to one of the required plugins.
+ - Minor versions will be bumped for changes to Standard Style or Standard React, or for changes to
+one of the required plugins.
  - Patch versions will be bumped for bug fixes or documentation updates.
+
+
+## [v4.2.0](https://github.com/adamelliotfields/eslint-config-semistandard-react/releases/tag/v4.2.0)
+ > Release September 30, 2017
+
+### Added
+ - Added `eslint-plugin-semistandard-react` to peer dependencies
+
+### Changed
+ - Upgraded `babel-eslint` to `v8.0.0`, which uses Babel v7 under the hood
+ - Updated `README.md` and `package.json`
 
 
 ## [v4.1.0](https://github.com/adamelliotfields/eslint-config-semistandard-react/releases/tag/v4.1.0)

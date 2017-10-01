@@ -1,5 +1,5 @@
 /* Editor Tests
- * ------------
+ *
  * Open this file in your text editor to test your ESLint editor extension
  *****************************************************************************/
 

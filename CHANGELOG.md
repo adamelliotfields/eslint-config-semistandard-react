@@ -9,9 +9,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 one of the required plugins.
  - Patch versions will be bumped for bug fixes or documentation updates.
 
+## [v4.2.1](https://github.com/adamelliotfields/eslint-config-semistandard-react/releases/tag/v4.2.1)
+ > Released August 6, 2021
+
+### Changed
+ - Updated `README.md` and `package.json`.
 
 ## [v4.2.0](https://github.com/adamelliotfields/eslint-config-semistandard-react/releases/tag/v4.2.0)
- > Release September 30, 2017
+ > Released September 30, 2017
 
 ### Added
  - Added `eslint-plugin-semistandard-react` to peer dependencies

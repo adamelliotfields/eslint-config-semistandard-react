@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-semistandard-react",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "An advanced configuration for writing clean ES7+ React (with semicolons).",
   "author": "Adam Fields <adam.elliot.fields@gmail.com> (https://adamelliotfields.github.io)",
   "homepage": "https://github.com/adamelliotfields/eslint-config-semistandard-react#readme",
